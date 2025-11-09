@@ -1,0 +1,90 @@
+.arr-swings-table-container {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.arr-swings-table-container h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 16px 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.arr-swings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.arr-swings-table thead {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.arr-swings-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+
+.arr-swings-table tbody tr {
+  border-bottom: 1px solid #f3f4f6;
+  transition: background-color 0.15s ease;
+}
+
+.arr-swings-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.arr-swings-table td {
+  padding: 12px;
+  color: #374151;
+}
+
+.customer-name {
+  font-weight: 500;
+  color: #111827;
+}
+
+.arr-value {
+  font-weight: 600;
+  color: #111827;
+}
+
+.change-value {
+  font-weight: 600;
+}
+
+.change-value.positive {
+  color: #10b981;
+}
+
+.change-value.negative {
+  color: #ef4444;
+}
+
+.change-percent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.change-percent.positive {
+  color: #10b981;
+}
+
+.change-percent.negative {
+  color: #ef4444;
+}
